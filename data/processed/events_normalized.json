@@ -1,0 +1,32 @@
+[
+  {
+    "developer_id": "DEV001",
+    "timestamp": "2026-08-12T09:00:00",
+    "source": "VSCode",
+    "event_type": "coding_start"
+  },
+  {
+    "developer_id": "DEV001",
+    "timestamp": "2026-08-12T09:45:00",
+    "source": "Slack",
+    "event_type": "message"
+  },
+  {
+    "developer_id": "DEV001",
+    "timestamp": "2026-08-12T09:50:00",
+    "source": "VSCode",
+    "event_type": "coding"
+  },
+  {
+    "developer_id": "DEV001",
+    "timestamp": "2026-08-12T10:30:00",
+    "source": "GitHub",
+    "event_type": "commit"
+  },
+  {
+    "developer_id": "DEV001",
+    "timestamp": "2026-08-12T11:00:00",
+    "source": "Jira",
+    "event_type": "ticket_update"
+  }
+]
