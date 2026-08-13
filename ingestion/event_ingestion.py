@@ -1,16 +1,23 @@
 from github_api import extract_github_events
 from ide_activity import extract_ide_events
 from slack_api import extract_slack_events
+from jira_api import extract_jira_events
 
 
 def ingest_events():
-    """Collect events from GitHub, IDE, and Slack sources."""
+    """Collect events from GitHub, IDE, Slack, and Jira sources."""
 
     github_events = extract_github_events()
     ide_events = extract_ide_events()
     slack_events = extract_slack_events()
+    jira_events = extract_jira_events()
 
-    all_events = github_events + ide_events + slack_events
+    all_events = (
+        github_events
+        + ide_events
+        + slack_events
+        + jira_events
+    )
 
     return all_events
 
