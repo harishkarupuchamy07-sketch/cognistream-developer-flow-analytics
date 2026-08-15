@@ -1,8 +1,6 @@
 import json
 from pathlib import Path
-
-
-DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "raw" / "events.json"
+DATA_FILE = Path(__file__).resolve().parent / "events.json"
 
 
 def extract_ide_events():

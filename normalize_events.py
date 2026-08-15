@@ -3,9 +3,8 @@ from pathlib import Path
 from datetime import datetime
 
 
-INPUT_FILE = Path(__file__).resolve().parent.parent / "data" / "raw" / "events.json"
-OUTPUT_FILE = Path(__file__).resolve().parent.parent / "data" / "processed" / "events_normalized.json"
-
+INPUT_FILE = Path(__file__).resolve().parent / "events.json"
+OUTPUT_FILE = Path(__file__).resolve().parent / "data" / "processed" / "events_normalized.json"
 DEFAULT_DATE = "2026-08-12"
 
 
