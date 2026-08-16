@@ -1,6 +1,6 @@
-from ingestion.github_api import extract_github_events
-from ingestion.slack_api import extract_slack_events
-from ingestion.ide_activity import extract_ide_events
+from github_api import extract_github_events
+from slack_api import extract_slack_events
+from ide_activity import extract_ide_events
 
 
 def test_github_events():
