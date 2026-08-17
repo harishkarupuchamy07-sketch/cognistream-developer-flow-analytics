@@ -1,2 +1,5 @@
 requests
 apache-airflow
+polars
+clickhouse-driver
+python-dotenv

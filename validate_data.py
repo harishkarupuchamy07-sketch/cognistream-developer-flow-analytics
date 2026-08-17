@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 
 
-DATA_FILE = Path(__file__).resolve().parent.parent / "data" / "processed" / "events_normalized.json"
+DATA_FILE = Path(__file__).resolve().parent / "data" / "processed" / "events_normalized.json"
 
 
 REQUIRED_FIELDS = {
