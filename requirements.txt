@@ -1,2 +1,2 @@
 requests
-apache-airflow
+apache-airflow==3.3.0

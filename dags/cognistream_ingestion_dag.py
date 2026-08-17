@@ -4,7 +4,7 @@ from airflow import DAG
 from airflow.providers.standard.operators.bash import BashOperator
 
 
-PROJECT_DIR = "/mnt/c/Users/91701/Desktop/khushi-217-cognistream-developer-flow-analytics"
+PROJECT_DIR = "/opt/airflow/project"
 
 with DAG(
     dag_id="cognistream_daily_ingestion",
