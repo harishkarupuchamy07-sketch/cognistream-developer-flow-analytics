@@ -1,0 +1,17 @@
+columns substreams version: 1
+5 columns:
+2 substreams for column `developer_id`:
+	developer_id.size
+	developer_id
+1 substreams for column `event_ts`:
+	event_ts
+1 substreams for column `event_date`:
+	event_date
+3 substreams for column `source`:
+	source.dict_prefix
+	source.dict
+	source
+3 substreams for column `event_type`:
+	event_type.dict_prefix
+	event_type.dict
+	event_type

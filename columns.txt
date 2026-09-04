@@ -1,0 +1,7 @@
+columns format version: 1
+5 columns:
+`developer_id` String
+`event_ts` DateTime
+`event_date` Date
+`source` LowCardinality(String)
+`event_type` LowCardinality(String)
