@@ -1,4 +1,4 @@
-# @jridgewell/gen-mapping
+ # @jridgewell/gen-mapping
 
 > Generate source maps
 
