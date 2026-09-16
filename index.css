@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  background-color: #020617;
+  color: #f8fafc;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Fix chart tooltips & text dark mode contrast */
+.recharts-default-tooltip {
+  background-color: #0f172a !important;
+  border: 1px solid #334155 !important;
+  color: #f8fafc !important;
+  border-radius: 12px !important;
+}
+
+.recharts-text, .recharts-cartesian-axis-tick-value {
+  fill: #94a3b8 !important;
+  font-size: 12px !important;
+}
+
+.recharts-legend-item-text {
+  color: #cbd5e1 !important;
+}
